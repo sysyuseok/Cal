@@ -63,7 +63,7 @@
             this.textBoxCalculation = new System.Windows.Forms.TextBox();
             this.button31 = new System.Windows.Forms.Button();
             this.button32 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.standardModeLabel = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // percentButton
@@ -291,6 +291,7 @@
             this.button29.TabIndex = 29;
             this.button29.Text = "button29";
             this.button29.UseVisualStyleBackColor = true;
+            this.button29.Click += new System.EventHandler(this.button29_Click);
             // 
             // button25
             // 
@@ -370,21 +371,21 @@
             this.button32.Text = "button32";
             this.button32.UseVisualStyleBackColor = true;
             // 
-            // textBox3
+            // standardModeLabel
             // 
-            this.textBox3.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.textBox3.Location = new System.Drawing.Point(75, 23);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(66, 21);
-            this.textBox3.TabIndex = 39;
-            this.textBox3.Text = "Standard";
+            this.standardModeLabel.Font = new System.Drawing.Font("Gulim", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.standardModeLabel.Location = new System.Drawing.Point(75, 23);
+            this.standardModeLabel.Name = "standardModeLabel";
+            this.standardModeLabel.Size = new System.Drawing.Size(66, 21);
+            this.standardModeLabel.TabIndex = 39;
+            this.standardModeLabel.Text = "Standard";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(362, 346);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.standardModeLabel);
             this.Controls.Add(this.button32);
             this.Controls.Add(this.button31);
             this.Controls.Add(this.textBoxCalculation);
@@ -463,7 +464,7 @@
         private System.Windows.Forms.TextBox textBoxCalculation;
         private System.Windows.Forms.Button button31;
         private System.Windows.Forms.Button button32;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox standardModeLabel;
     }
 }
 
